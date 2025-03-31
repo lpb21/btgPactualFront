@@ -8,6 +8,7 @@ const Config = {
 
   //*Variables MongoDB
   api_URL: import.meta.env.VITE_API_URL,
+  code_country: import.meta.env.VITE_CODE_COUNTRY,
 
   //cors_origin: process.env.CORS_ORIGIN,
 

@@ -14,7 +14,7 @@ const ModalNotifications = ({ isOpen, onClose, fundName  }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const countryCode = "+57";
+    const countryCode = `${Config.code_country}`;
 
     // Si es SMS, asegurarse de incluir el código de país
   const formattedRecipient =
